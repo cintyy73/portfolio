@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black ;
+    color: aliceblue;
+    text-align: center;
+}
+
+/* SECCION PRESENTACION */
+
+#presentacion{
+    background-color: rgb(20, 0, 39);
+    height: 100vh;
+} 
+
+ /* HEADER */
+
+ header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+    padding: 10px;
+
+}
+
+header div.logo  img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px 10px 10px 0px ;
+    padding: 10px;
+}
+
+header div.logo  img:hover{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} 
+
+header nav ul li{
+    display: flex;
+    align-items: center;  
+    height: 10vh;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+header nav ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color:lightpink;    
+}
+
+li a:hover{
+    color: black;
+}
+
+li:hover{
+    background-color: rgb(143, 23, 183);
+
+}
+
+/* MAIN */
+
+div.presentacion{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+div.presentacion h4{
+    font-size: 15px;
+}
+div.biografia{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+
+h1{
+    color: lightblue;
+    font-size: 50px;
+    font-family: Fontdiner Swanky;
+    margin: 20px;
+    text-shadow: 4px -3px 1px rgba(234, 218, 218, 0.49);
+}
+
+
+ img.foto-de-perfil{
+    /* width: 50%; */
+    height: 250px;
+    border: 4px double lightgreen;
+    margin-top: 50px;
+    
+} 
+
+span.saludo{
+    color: rgb(160, 98, 192);
+    font-size: 25px;
+    margin: 10px;
+}
+
+div.lo-que-hago{
+    align-self: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 300px;
+    height: 40px;
+    background-color: lightblue;
+    color: blueviolet;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(224,201,201,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(224,201,201,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(224,201,201,0.75);
+}
+
+div.lo-que-hago a{
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+/* varios */
+.texto{
+    font-size: 15px;
+    font-style: oblique;
+    text-align: center;
+}
+/* SEGUNDA SECCION */
+
+section#conocimientos{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+div.text-section{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+div.lenguajes{
+    width: 600px;
+    flex-wrap: wrap ;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+
+}
+
+div.lenguajes div img{
+    border-radius: 10px;
+    border: 5px solid lightpink;
+    width:100px ;
+    height: 100px;
+    margin: 10px;
+}
+
+div.lenguajes div img:hover{
+    border:2px double blueviolet;
+    width:150px ;
+    height: 150px;
+
+}
+
+/* cita */
+
+div.tres-logos{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
+
+div.cita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./imagenes/atardecer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    color: black;
+    font-family: fantasy;
+}
+
+/* section-3 */
+
+section#projects{
+    border: 5px solid lightpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+div.texto-project{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    height: 50vh;  
+    background-color: rgb(75, 43, 107);
+
+}
+div.texto-project h3{
+    margin-bottom: 20px;
+
+}
+div.works{
+    background-color: rgb(35, 5, 65);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+
+}
+div.works div.work{
+    border: 5px solid lightpink;
+    width: 200px;
+    height:300px;
+    margin: 20px;
+}
+
+/* section 4 */
+
+section#contacto{
+    border: 5px solid lightpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

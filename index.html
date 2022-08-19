@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fontdiner+Swanky&family=Odibee+Sans&family=Source+Code+Pro:ital,wght@1,700&family=Square+Peg&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="./imagenes/logo.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#conocimientos">Conocimientos</a></li>
+                <li><a href="#projects">Mis proyectos</a></li>
+                <li><a href="#contacto">Contactame</a></li>
+                <li><a href="#formulario">Escribime</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="presentacion">
+            <div class="presentacion">
+                <div class="biografia">
+                    <span class="saludo">¡Hola! soy</span>
+                    <h1>
+                        Cintia Páez
+                    </h1>
+                    <h4>
+                        Desarrolladora, profesora particular de matemática y amante del Rock&Roll.
+                    </h4>
+                    <div class="lo-que-hago">
+                        <a href="#proyectos">Lo que hago</a>
+                    </div>
+                </div>
+                <div class="foto-perfil">
+                    <img src="./imagenes/cintia.jpg" alt="foto de perfil" class="foto-de-perfil">
+                </div>
+            </div>
+        </section>
+        <section id="conocimientos">
+            <h3 class="mis">Mis conocimientos</h3>
+            <div class="text-section">
+                <p class="texto">
+                    Realicé un curso de Introducción a la programación en ADA, lo que me llevó a darme cuenta de lo mucho
+                    que me gustaba el mundo del Desarrolo Web.
+                </p>
+                <p class="texto">
+                    Me otorgaron una beca y me dieron la oportunidad de convertirme en desarrolladora.
+                </p>
+                <p class="texto">
+                    Gracias a ADA adquirí estos conocimientos
+                </p>
+            </div>
+            <div class="lenguajes">
+                <div class="tres-logos">
+                    <div class="html">
+                        <img src="./imagenes/html-logo.png" alt="html5">
+                    </div>
+                    <div class="css">
+                        <img src="./imagenes/css-logo.png" alt="">
+                    </div>
+                    <div class="javascript">
+                        <img src="./imagenes/js-logo.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="tres-logos">
+                    <div class="sass">
+                        <img src="./imagenes/sass-logo.png" alt="">
+                    </div>
+                    <div class="react">
+                        <img src="./imagenes/react-logo.png" alt="">
+                    </div>
+                    <div class="git">
+                        <img src="./imagenes/git-logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="cita">
+            <p>
+                Pobre del que tiene miedo de correr riesgos, <br> porque ese quizá <br> no se decepcione nunca, <br> ni tenga
+                ilusiones, <br> ni sufra... <br> como los que persiguen un sueño..
+            </p>
+        </div>
+        <section class="projects">
+            <div class="texto-project">
+                <h3>Mis proyectos</h3>
+                <p class="texto">
+                    A lo largo del recorrido en el curso de ADA he realizado los siguientes proyectos, <br> han sido un gran
+                    desafío, <br> son los peldaños de la escalera que me llevó hasta aquí, <br> dónde no pienso quedarme.. <br>
+                    voy a seguir adquiriendo conocimientos en este infinito mundo del desarrollo..
+                </p>
+            </div>
+            <div class="works">
+                <div class="work portfolio"></div>
+                <div class="work generador-de-memes"></div>
+                <div class="work macht-tres"></div>
+                <div class="work controlador-de-gastos"></div>
+                <div class="work admisnistrador-de-reuniones"></div>
+                <div class="work todo-app"></div>
+            </div>
+        </section>
+        <section id="contacto">
+            <h3>Contactame</h3>
+            <div class="facebook">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" />
+            </div>
+            <div class="instagram"></div>
+            <div class="linkedin"></div>
+            <div class="gmail"></div>
+            <div class="github"></div>
+        </section>
+        <section class="formulario">
+            <h3>Escribime</h3>
+            <form action="">
+                <div>
+                    <h5>Nombre*</h5>
+                    <input type="text" name="nombre" placeholder="Nombre" size="30">
+                </div>
+                <div class="form">
+                    <h5>Apellido*</h5>
+                    <input type="text" name="apellido" placeholder="Apellidos" size="30">
+                </div>
+                <div class="form">
+                    <h5>Teléfono</h5>
+                    <select name="telefono" id="number">
+                        <option value="celular">Celular</option>
+                        <option value="linea">Línea </option>
+                        Celular <input type="number" size="15" placeholder="">
+                    </select>
+                </div>
+                <div class="form">
+                    <h5>E-mail*</h5>
+                    <input type="email" name="e-mail" placeholder="e-mail" >
+                </div>
+                <div class="mensaje">
+                    <label for="comentarios">Deje aquí su mensaje.</label>
+                    <input type="text" size="300">
+            </form>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
