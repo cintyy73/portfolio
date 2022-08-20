@@ -15,17 +15,17 @@ body{
 /* SECCION PRESENTACION */
 
 #presentacion{
+    height: 100vh; 
     background-color: rgb(20, 0, 39);
-    height: 100vh;
 } 
 
  /* HEADER */
 
  header{
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 20vh;
     padding: 10px;
 
 }
@@ -252,9 +252,38 @@ div.works div.work{
 /* section 4 */
 
 section#contacto{
-    border: 5px solid lightpink;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border: 5px solid lightpink;
+
+}
+
+/* footer */
+
+footer{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+
+    
+}
+
+footer div.cont-iconos{
+    width: 20%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+footer div.iconos{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
