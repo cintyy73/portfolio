@@ -10,19 +10,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fontdiner+Swanky&family=Odibee+Sans&family=Source+Code+Pro:ital,wght@1,700&family=Square+Peg&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <title>Portfolio</title>
+    <title>Portfolio Cintia Páez</title>
 </head>
 
 <body>
 
-    <header>
+    <header id="header">
         <div class="logo">
-            <img src="./imagenes/logo.png" alt="logo">
+            <img src="./imagenes/cintia-logo.png" alt="logo">
         </div>
         <nav>
             <ul>
                 <li><a href="#conocimientos">Conocimientos</a></li>
-                <li><a href="#projects">Mis proyectos</a></li>
+                <li><a href="#proyectos">Mis proyectos</a></li>
                 <li><a href="#contacto">Contactame</a></li>
                 <li><a href="#formulario">Escribime</a></li>
             </ul>
@@ -30,6 +30,11 @@
     </header>
 
     <main>
+        <!-- <div class="menu">
+            <a href="#header">
+
+            </a>
+        </div> -->
         <section id="presentacion">
             <div class="presentacion">
                 <div class="biografia">
@@ -38,7 +43,9 @@
                         Cintia Páez
                     </h1>
                     <h4>
-                        Desarrolladora, profesora particular de matemática y amante del Rock&Roll.
+                        Desarrolladora, Profesora particular de matemática y amante del Rock&Roll. <br>
+                        Disfuto mucho enseñar, ya sean alumnos o campañeros, siento que ayudar es algo primordial. <br>
+                        Amo el camping, la pesca y el aire libre en familia.
                     </h4>
                     <div class="lo-que-hago">
                         <a href="#proyectos">Lo que hago</a>
@@ -95,7 +102,7 @@
                 ilusiones, <br> ni sufra... <br> como los que persiguen un sueño..
             </p>
         </div>
-        <section class="projects">
+        <section id="proyectos">
             <div class="texto-project">
                 <h3>Mis proyectos</h3>
                 <p class="texto">
@@ -105,42 +112,72 @@
                 </p>
             </div>
             <div class="works">
-                <div class="work portfolio"></div>
-                <div class="work generador-de-memes"></div>
-                <div class="work macht-tres"></div>
-                <div class="work controlador-de-gastos"></div>
-                <div class="work admisnistrador-de-reuniones"></div>
-                <div class="work todo-app"></div>
+                <div class="work portfolio">
+                    <a href="https://cintyy73.github.io/portfolio/">
+                        <img src="./assets/portada-proyectos/portfolio-pro.png">
+                    </a>
+                </div>
+                <div class="work generador-de-memes">
+                    <a href="">
+                        <img src="./assets/portada-proyectos/generador-de-memes.png">
+                    </a>
+                </div>
+                <div class="work match-tres">
+                    <a href="">  <img src="./assets/portada-proyectos/match.png"></a>
+                </div>
+                <div class="work controlador-de-gastos">
+                    <a href="">
+                        <img src="./assets/portada-proyectos/controlador-de-gastos.png">
+                    </a>
+                </div>
+                <div class="work administrador-de-reuniones">
+                    <a href="">
+                        <img src="./assets/portada-proyectos/administrador-de-reuniones.png">
+                    </a>
+                </div>
+                <div class="work todo-app">
+                    <a href="">
+                        <img src="./assets/portada-proyectos/todo-app.png">
+                    </a>
+                </div>
+                <div class="work buscador-de-peliculas">
+                    <a href="">
+                        <img src="./assets/portada-proyectos/buscador-de-peliculas.png">
+                    </a>
+                </div>
             </div>
         </section>
         <section id="contacto">
             <h3>Contactame</h3>
-            <div class="facebook">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" />
+            <div class="icono facebook">
+                <a href="https://www.facebook.com/" target="blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"/>
+                    <span class="texto">Cintia Páez</span>
+                </a>
             </div>
-            <div class="instagram">
-                <span class="texto">@cintia-angeles</span>
+            <div class="icono linkedin">
+                <a href="https://www.linkedin.com/" target="blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain-wordmark.svg" />
+                    <span class="texto">CintiaAngeles</span>
+                </a>
             </div>
-            <div class="linkedin">
-                
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain-wordmark.svg" />
-          
-                <span>CintiaAngeles</span>
+            <div class="icono gmail">
+                <a href="https://mail.google.com/" target="blank">
+                    <img src="./imagenes/gmail-logo.png">
+                    <span class="texto">cintia.angeles40@gmail.com</span>
+                </a>
             </div>
-            <div class="gmail">
-                <span class="texto">cintia.angeles40@gmail.com</span>
-            </div>
-            <div class="github">
-                
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
-          
-                <span class="texto">cintia-angeles40</cintia-angeles40></span>
+            <div class="icono github">
+                <a href="https://github.com/" target="blank">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+                    <span class="texto">cintia-angeles40</span>
+                </a>
             </div>
         </section>
-        <section class="formulario">
+        <section id="formulario">
             <h3>Escribime</h3>
             <form action="">
-                <div>
+                <div class="form">
                     <h5>Nombre*</h5>
                     <input type="text" name="nombre" placeholder="Nombre" size="30">
                 </div>
@@ -153,7 +190,7 @@
                     <select name="telefono" id="number">
                         <option value="celular">Celular</option>
                         <option value="linea">Línea </option>
-                        Celular <input type="number" size="15" placeholder="">
+                        Celular <input type="" size="15" placeholder="Teléfono">
                     </select>
                 </div>
                 <div class="form">
@@ -161,22 +198,40 @@
                     <input type="email" name="e-mail" placeholder="e-mail" >
                 </div>
                 <div class="mensaje">
-                    <label for="comentarios">Deje aquí su mensaje.</label>
-                    <input type="text" size="300">
+                    <h5>Deje aquí su mensaje</h5>
+                    <input  type="text" size="300" >
+                </div>
+                <button>Enviar</button>
             </form>
         </section>
 
     </main>
 
     <footer>
+        <div class="cont-nav-footer">
+            <nav>
+                <ul>
+                    <li><a href="#conocimientos">Conocimientos</a></li>
+                    <li><a href="#proyectos">Mis proyectos</a></li>
+                    <li><a href="#contacto">Contactame</a></li>
+                    <li><a href="#formulario">Escribime</a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="cont-iconos">
-            <div class="iconos"></div>
-            <div class="iconos"></div>
             <div class="iconos">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain-wordmark.svg" />
-              </div>
+                <a href="https://mail.google.com/" target="blank">
+                    <img src="./imagenes/gmail-logo.png">
+                </a>
+            </div>
+            <div class="iconos">   
+                <a href="https://www.facebook.com/"target="blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" /></a>
+            </div>
             <div class="iconos">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+                <a href="https://www.linkedin.com/" target="blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain-wordmark.svg" /></a>
+            </div>
+            <div class="iconos">
+                <a href="https://github.com/" target="blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"/></a>
           </div>
         </div>
         Cintia de los Angeles Páez 

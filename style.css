@@ -27,7 +27,6 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-
 }
 
 header div.logo  img{
@@ -44,23 +43,23 @@ header div.logo  img:hover{
     border-radius: 50%;
     position: relative;
 }
-header nav ul {
+
+nav ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 } 
 
-header nav ul li{
+nav ul li{
     display: flex;
     align-items: center;  
     height: 10vh;
     margin: 10px;
     border-radius: 8px;
     padding: 10px;
-
 }
 
-header nav ul li a{
+nav ul li a{
     font-size: 15px;
     text-decoration: none;
     color:lightpink;    
@@ -68,11 +67,11 @@ header nav ul li a{
 
 li a:hover{
     color: black;
+    font-size:25px;
 }
 
 li:hover{
     background-color: rgb(143, 23, 183);
-
 }
 
 /* MAIN */
@@ -146,6 +145,7 @@ div.lo-que-hago a{
     font-style: oblique;
     text-align: center;
 }
+
 /* SEGUNDA SECCION */
 
 section#conocimientos{
@@ -172,7 +172,6 @@ div.lenguajes{
     display: flex;
     justify-content: center;
     align-content: space-between;
-
 }
 
 div.lenguajes div img{
@@ -228,7 +227,6 @@ div.texto-project{
     justify-content: center;
     height: 50vh;  
     background-color: rgb(75, 43, 107);
-
 }
 div.texto-project h3{
     margin-bottom: 20px;
@@ -242,7 +240,7 @@ div.works{
     justify-content: center;
 
 }
-div.works div.work{
+div.works div.work a img{
     border: 5px solid lightpink;
     width: 200px;
     height:300px;
@@ -257,21 +255,74 @@ section#contacto{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: 5px solid lightpink;
+    align-content:center;
+    background-color:pink;
+    color:black;
+}
 
+section#contacto div.icono a{
+width:20px;
+height:50px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding:20px;
+margin:10px;
+text-decoration:none;
+color:black;
+}
+
+section#contacto div.icono a img{
+    width:50px;
+    height:50px;
+    margin:20px;
+    }
+
+/* section */
+
+section#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div.form h3{
+    margin:15px;
+}
+
+form div.form h5, h3{
+    margin:5px;
+}
+
+form div.mensaje{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin:20px;
+    width:300px;
+}
+
+form div.mensaje input{
+    width:300px;
+    height:100px;
+    margin:20px
+}
+
+form button{
+    background-color:blueviolet;
+    padding:10px;
+    margin:10px;
 }
 
 /* footer */
 
 footer{
-    height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     background-color: blueviolet;
-
-    
+    padding:10px;
 }
 
 footer div.cont-iconos{
@@ -280,10 +331,17 @@ footer div.cont-iconos{
     display: flex;
     justify-content: space-around;
     align-items:center;
+    align-content:center;
 }
-footer div.iconos{
+footer div.iconos a{
     display: flex;
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    margin-bottom:20px;
+}
+
+footer div.iconos a:hover{
+    width: 60px;
+    height: 60px; 
 }
